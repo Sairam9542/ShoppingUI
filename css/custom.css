@@ -1,0 +1,182 @@
+body {
+    margin: 0px;
+    background-color: rgb(240, 240, 240);
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+ul, ol  {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Topbar CSS Starts*/
+.topbar {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+
+.topbar-container {
+  background-color: #ffffff;
+}
+.topbar-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topbar-container ul li {
+  padding-left: 50px;
+}
+.searchbar input[type = text] {
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 13px;
+  width: 260px;
+}
+.searchbar button {
+  padding: 13px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: #000;
+  color: #ffffff;
+}
+.searchbar button:hover {
+  color: black;
+  background-color: #ffffff;
+}
+.loginbtn {
+  padding: 13px;
+  background-color: #ffffff;
+  border: 2px solid #000;
+  color: #000;
+  border-radius: 10px;
+}
+.loginbtn:hover {
+  color: #ffffff;
+  background-color: blue;
+  border: 1px solid blue;
+}
+  /* Topbar CSS Ends*/
+
+  /*Categories Section CSS Starts*/
+  .container {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 40px;
+    margin: 20px 60px;
+    margin-top: 75px;
+  }
+  .card {
+    text-align: center;
+    padding: 5px 13px;
+  }
+  .card img {
+    border-radius: 50%;
+  }
+
+  /*Categories Section CSS Starts*/
+
+  /*Offers section CSS Starts*/
+  .offer-container {
+    background-color: #ffffff;
+    padding: 10px 40px;
+    margin: 10px 60px;
+  }
+  /*Offers section CSS Starts*/
+
+  /*Best Deals Css Starts*/
+  .container-deals {
+    background-color: #ffffff;
+    margin: 10px 60px;
+    padding: 10px 5px;
+  }
+  .deals {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+  }
+  .deals ul li img {
+    padding-top: 15px;
+  }
+  .moblies {
+    background-color: #f8f8f8;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 10px 30px;
+  }
+  .mobiles p {
+    text-align: center;
+  }
+
+  .container3 {
+    display: flex; 
+    justify-content: space-between;
+    padding: 10px 40px;
+    overflow-x: scroll;
+  }
+  .container3::-webkit-scrollbar {
+    display: none;
+  }
+   /*Best Deals Css Ends*/
+
+  /*Footer CSS Starts*/
+  footer {
+    background-color: rgb(40, 39, 39);
+    margin-bottom: 1px;
+    padding: 10px 80px;
+  }
+  .about-sc {
+    padding: 10px 40px;
+  }
+  .about-sc ul li a {
+    color: #ffffff;
+  }
+  .about-sc ul li  {
+    color: #ffffff;
+  }
+  .about-sc ul li p {
+    opacity: 0.5;
+    font-weight: 100px;
+  }
+  .about-sc ul li h5:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+  }
+
+  .container-ft {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .social-ic {
+    display: flex;
+  }
+  /*Footer CSS Ends*/
+  /*Copy right css starts*/
+  .cp-container {
+    display: flex;
+  }
+  .cp-cards {
+    display: flex;
+  }
+  .cp-card ul li img {
+    display: flex;
+  }
+
+  .cp-service {
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+  /*Copy right css ends*/
+
+
